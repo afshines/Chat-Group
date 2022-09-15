@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+service AuthService {
+    rpc Register(Auth) returns (Auth) {}
+    rpc Login(Auth) returns (Auth) {}
+    rpc Verify(Auth) returns (Auth) {}
+}
+
+message Auth {
+    string name=1;
+    string email=2;
+    string password=3;
+    string token=4;
+    string last_name=5;
+    string id=6;
+}
