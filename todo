@@ -1,0 +1,10 @@
+client side
+scroll loading
+preview
+seen   / view
+
+serv0:building:53453453434345-jh337:likes:msg_id  ---> zset {actor_id,time,code} / time
+serv0:building:53453453434345-jh337:views:msg_id  ---> zset {actor_id,time} / time
+
+
+https://levelup.gitconnected.com/building-a-video-chat-app-with-node-js-socket-io-webrtc-26f46b213017
